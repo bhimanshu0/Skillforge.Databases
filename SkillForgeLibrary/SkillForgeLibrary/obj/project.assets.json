@@ -3658,34 +3658,19 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\2478559\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\2478758\\.nuget\\packages\\": {}
->>>>>>> af01123a94b511bcb0f844f2b2b130c222608473
+    "C:\\Users\\2478695\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\2478559\\Desktop\\SkillForge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\skillforge\\database_Microservice\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
       "projectName": "SkillForgeLibrary",
-      "projectPath": "C:\\Users\\2478559\\Desktop\\SkillForge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
-      "packagesPath": "C:\\Users\\2478559\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2478559\\Desktop\\SkillForge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\",
+      "projectPath": "C:\\Users\\Public\\skillforge\\database_Microservice\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+      "packagesPath": "C:\\Users\\2478695\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Public\\skillforge\\database_Microservice\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\2478559\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-      "projectUniqueName": "C:\\Users\\2478758\\newcharge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
-      "projectName": "SkillForgeLibrary",
-      "projectPath": "C:\\Users\\2478758\\newcharge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
-      "packagesPath": "C:\\Users\\2478758\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2478758\\newcharge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\2478758\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> af01123a94b511bcb0f844f2b2b130c222608473
+        "C:\\Users\\2478695\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -4019,5 +4004,13 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Public\\skillforge\\database_Microservice\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+    }
+  ]
 }
