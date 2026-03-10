@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillForgeLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+296f5043fe651b469102c221f885c71aa9e91d9a")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70474c156e8c6f2c6d31cc1872d7f6db94b6875b")]
+>>>>>>> af01123a94b511bcb0f844f2b2b130c222608473
 [assembly: System.Reflection.AssemblyProductAttribute("SkillForgeLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillForgeLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
