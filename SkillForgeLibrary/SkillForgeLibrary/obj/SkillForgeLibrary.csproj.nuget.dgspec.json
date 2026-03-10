@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dotnet training\\temp\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj": {}
+    "C:\\Users\\2478559\\Desktop\\SkillForge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj": {}
   },
   "projects": {
-    "C:\\dotnet training\\temp\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj": {
+    "C:\\Users\\2478559\\Desktop\\SkillForge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dotnet training\\temp\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\2478559\\Desktop\\SkillForge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
         "projectName": "SkillForgeLibrary",
-        "projectPath": "C:\\dotnet training\\temp\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
-        "packagesPath": "C:\\Users\\2478643\\.nuget\\packages\\",
-        "outputPath": "C:\\dotnet training\\temp\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\",
+        "projectPath": "C:\\Users\\2478559\\Desktop\\SkillForge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+        "packagesPath": "C:\\Users\\2478559\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2478559\\Desktop\\SkillForge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\2478643\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\2478559\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
