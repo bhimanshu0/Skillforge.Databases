@@ -11,19 +11,19 @@ public class ComplianceRecord
     public int ComplianceID { get; set; }
 
     [Required]
-    public string? EmployeeID { get; set; }
+    public string EmployeeID { get; set; }
 
     [Required]
     public int CertificationID { get; set; }
 
     [MaxLength(20)]
-    public string? Status { get; set; }
+    public string Status { get; set; }
 
     public DateTime Date { get; set; }
 
     [ForeignKey("EmployeeID")]
-    public virtual User? Employee { get; set; }
+    public virtual User Employee { get; set; }
 
     [ForeignKey("CertificationID")]
-    public virtual Certification? Certification { get; set; }
+    public virtual Certification Certification { get; set; }
 }

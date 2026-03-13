@@ -16,7 +16,7 @@ public class Enrollment
     [Required]
     public DateTime EnrollmentDate { get; set; } = DateTime.Now;
     [Column(TypeName = "VARCHAR(20)")]
-    public string? Status { get; set; } //Enrolled,inprogress,completed,certified
+    public string Status { get; set; } //Enrolled,inprogress,completed,certified
 
   //  public virtual Course CourseIdNavigation { get; set; } = null!;
    // public virtual User EmployeeIdNavigation { get; set; } = null!;

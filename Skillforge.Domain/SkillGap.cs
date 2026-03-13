@@ -12,7 +12,7 @@ namespace Skillforge.Domain
 
         [Required]
         [Column(TypeName = "CHAR(5)")]
-        public string ?EmployeeID { get; set; }
+        public string EmployeeID { get; set; }
 
         [Required]
         public int CompetencyID { get; set; }
@@ -24,9 +24,9 @@ namespace Skillforge.Domain
         public DateTime DateIdentified { get; set; } = DateTime.Now;
 
         [ForeignKey("EmployeeID")]
-        public virtual User ?Employee { get; set; }
+        public virtual User Employee { get; set; }
 
         [ForeignKey("CompetencyID")]
-        public virtual Competency ?Competency { get; set; }
+        public virtual Competency Competency { get; set; }
     }
 }

@@ -17,8 +17,8 @@ public class Attendance
     public DateTime AttendanceDate { get; set; }
     [Required]
     [Column(TypeName ="VARCHAR(20)")]
-    public string? Status { get; set; } // "Present", "Absent"
-    public virtual Enrollment? EnrollmentIdNavigation { get; set; }
+    public string Status { get; set; } 
+    public virtual Enrollment EnrollmentIdNavigation { get; set; }
     }
 
 

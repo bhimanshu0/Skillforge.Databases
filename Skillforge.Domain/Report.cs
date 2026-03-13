@@ -15,23 +15,23 @@ public class Report
     public ReportScope Scope { get; set; }
 
     [ForeignKey("CourseIDNavigation")]
-    public string? CourseID { get; set; }
+    public string CourseID { get; set; }
 
     [ForeignKey("EmployeeIDNavigation")]
-    public string? EmployeeID { get; set; }
+    public string EmployeeID { get; set; }
 
     [Required]
-    public string ?Metrics { get; set; }
+    public string Metrics { get; set; }
     [Required]
     public DateTime GeneratedDate { get; set; } = DateTime.Now;
 
     
         
     
-    public virtual Course? CourseIDNavigation { get; set; }
+    public virtual Course CourseIDNavigation { get; set; }
 
     
-    public virtual User? EmployeeIDNavigation { get; set; }
+    public virtual User EmployeeIDNavigation { get; set; }
 
 
 }
