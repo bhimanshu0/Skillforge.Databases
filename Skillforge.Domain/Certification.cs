@@ -12,14 +12,14 @@ public class Certification
 
     [Required]
     [Column(TypeName = "CHAR(5)")]
-    public string? EmployeeID { get; set; }
+    public string EmployeeID { get; set; }
 
     [ForeignKey("EmployeeID")]
     public virtual User? UserRoleEmployee { get; set; }
 
     [Required]
     [Column(TypeName = "CHAR(5)")]
-    public string? CourseID { get; set; }
+    public string CourseID { get; set; }
 
     [ForeignKey("CourseID")]
     public virtual Course? Course { get; set; }
@@ -28,8 +28,8 @@ public class Certification
     public DateTime IssueDate { get; set; }
 
     [Column(TypeName = "DATETIME")]
-    public DateTime? ExpiryDate { get; set; }
+    public DateTime ExpiryDate { get; set; }
 
     [Column(TypeName = "VARCHAR(20)")]
-    public string? Status { get; set; }
+    public string Status { get; set; }
 }
