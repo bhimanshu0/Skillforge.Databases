@@ -12,13 +12,13 @@ public class Assessment
     public int AssessmentID { get; set; }
 
     [Column(TypeName = "CHAR(5)")]
-    public string? CourseID { get; set; }
+    public string CourseID { get; set; }
 
     [ForeignKey("CourseID")]
     public virtual Course? Course { get; set; }
 
     [Column(TypeName = "VARCHAR(20)")]
-    public string? Type { get; set; }
+    public string Type { get; set; }
 
     [Column(TypeName = "DECIMAL(4,1)")]
     public decimal MaxScore { get; set; }
