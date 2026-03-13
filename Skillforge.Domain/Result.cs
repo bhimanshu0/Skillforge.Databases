@@ -17,7 +17,7 @@ public class Result
 
     [Required]
     [Column(TypeName = "CHAR(5)")]
-    public string? EmployeeID { get; set; }
+    public string EmployeeID { get; set; }
 
     [ForeignKey("EmployeeID")]
     public virtual User? UserRoleEmployee { get; set; }
@@ -26,5 +26,5 @@ public class Result
     public decimal Score { get; set; }
 
     [Column(TypeName = "VARCHAR(20)")]
-    public string? Status { get; set; }
+    public string Status { get; set; }
 }
