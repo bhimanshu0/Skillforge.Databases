@@ -32,4 +32,5 @@ public class Course
     public virtual ICollection<Module> Modules { get; set; } = new List<Module>();
     public virtual ICollection<Assessment> Assessments { get; set; } = new List<Assessment>();
     public virtual ICollection<Certification> Certifications { get; set; } = new List<Certification>();
+    public virtual ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
 }
