@@ -16,6 +16,6 @@ namespace Skillforge.Domain
         [Required]
         [Column(TypeName ="CHAR(15)")]
         public string Level { get; set; }
-        public ICollection<SkillGap> SkillGaps { get; set; }
+        public ICollection<SkillGap> ?SkillGaps { get; set; }
     }
 }
